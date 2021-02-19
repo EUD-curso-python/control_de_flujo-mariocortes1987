@@ -2,6 +2,14 @@
 """Guarde en lista `naturales` los primeros 100 números naturales (desde el 1) 
 usando el bucle while
 """
+naturales=[]
+i=1
+while i <=100:
+  naturales.append(i)
+  i+=1
+  #print(i)
+#print(naturales)
+
 
 
 
@@ -12,6 +20,25 @@ usando el bucle while
 
 Hasta el número 50.
 """
+##acumulado=[]
+##i=1
+##while i <=5:
+  #acumulado.append(i)
+  ##for p in range(1,i,1):
+    ##acumulado.append(i)
+  ##i+=1
+  #print(i)
+##print(acumulado)
+
+
+
+acumulado=[]
+i=1
+while i <=51:
+  acumulado.insert(i,list(range(1,i,1)))
+  i+=1
+print(acumulado)
+
 
 
 
