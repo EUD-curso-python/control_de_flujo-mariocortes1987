@@ -20,24 +20,12 @@ while i <=100:
 
 Hasta el número 50.
 """
-##acumulado=[]
-##i=1
-##while i <=5:
-  #acumulado.append(i)
-  ##for p in range(1,i,1):
-    ##acumulado.append(i)
-  ##i+=1
-  #print(i)
-##print(acumulado)
-
-
-
 acumulado=[]
 i=1
 while i <=51:
   acumulado.insert(i,list(range(1,i,1)))
   i+=1
-print(acumulado)
+#print(acumulado)
 
 
 
@@ -46,6 +34,12 @@ print(acumulado)
 """Guarde en `suma100` el entero de la suma de todos los números entre 1 y 100:
 """
 
+
+
+suma100=0
+for elemento in naturales:
+    suma100+=elemento
+#print(suma100)
 
 
 
@@ -57,6 +51,11 @@ separados por coma, así:
 '134,268,...'
 
 """
+lista=list(range(1,11,1))
+lista=[el*134 for el in lista]
+tabla100=",".join(map(str, lista))
+print(tabla100)  
+    
 
 
 
